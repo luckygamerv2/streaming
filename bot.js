@@ -5,7 +5,7 @@ const ms = require ("ms");
 const prefix = "!"
 
 client.on('message', function(message) {
-	const myID = "431150885549113344";
+	const myID = "444559925427961875";
     let args = message.content.split(" ").slice(1).join(" ");
     if(message.content.startsWith(prefix+ "setname")) {
 		        if(message.author.id !== myID) return;
